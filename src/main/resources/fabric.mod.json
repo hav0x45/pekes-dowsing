@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "dowsing",
+  "version": "${version}",
+
+  "name": "Dowsing Rod",
+  "description": "Dowsing Rod item for minecraft",
+  "authors": [
+    "TheMC"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/dowsing/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.pekes.dowsing.DowsingMod"
+    ]
+  },
+  "mixins": [
+    "dowsing.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
