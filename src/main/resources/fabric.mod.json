@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "dowsing",
+  "id": "pekesdowsing",
   "version": "${version}",
 
   "name": "Dowsing Rod",
@@ -14,7 +14,7 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/dowsing/icon.png",
+  "icon": "assets/pekesdowsing/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -23,7 +23,7 @@
     ]
   },
   "mixins": [
-    "dowsing.mixins.json"
+    "pekesdowsing.mixins.json"
   ],
 
   "depends": {
